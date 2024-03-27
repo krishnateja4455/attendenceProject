@@ -1,0 +1,1753 @@
+2024-03-24 06:52:13 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::registaration() could not be found, or is not accessible. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'registaration',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(137): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /Users/registaration
+
+
+2024-03-24 07:02:21 Error: [Error] Call to a member function viewBuilder() on bool (C:\xampp\htdocs\attendenceProject\src\Controller\UsersController.php:14)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\UsersController->registration()
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(137): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#20 {main}
+Request URL: /Users/registration
+
+
+2024-03-24 07:02:22 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php line=855 in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 53]
+Request URL: /Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 53
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:02:22 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 154]
+Request URL: /Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 154
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 59
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:02:22 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:02:22 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:05:28 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:274)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(165): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(135): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+
+
+2024-03-24 07:05:46 Error: [Cake\Http\Exception\InvalidCsrfTokenException] CSRF token mismatch. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php:274)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(165): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateToken(Object(Cake\Http\ServerRequest))
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(135): Cake\Http\Middleware\CsrfProtectionMiddleware->_validateAndUnsetTokenField(Object(Cake\Http\ServerRequest))
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(170): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+
+
+2024-03-24 07:21:05 Error: [Error] Call to a member function patchEntity() on bool (C:\xampp\htdocs\attendenceProject\src\Controller\UsersController.php:19)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\UsersController->registration()
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+
+
+2024-03-24 07:21:05 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php line=855 in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 53]
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 53
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:21:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 154]
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 154
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 59
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:21:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:21:05 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:21:32 Error: [Error] Call to a member function patchEntity() on bool (C:\xampp\htdocs\attendenceProject\src\Controller\UsersController.php:19)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\UsersController->registration()
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+
+
+2024-03-24 07:21:32 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php line=855 in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 53]
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 53
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:21:32 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 154]
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 154
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 59
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:21:32 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:21:32 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:21:58 Error: [Error] Call to a member function save() on bool (C:\xampp\htdocs\attendenceProject\src\Controller\UsersController.php:20)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\UsersController->registration()
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+
+
+2024-03-24 07:21:58 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php line=855 in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 53]
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 53
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:21:58 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 154]
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 154
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 59
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:21:58 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:21:58 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /Users/registration
+Referer URL: http://localhost/attendenceProject/Users/registration
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:22:20 Error: [Cake\View\Exception\MissingTemplateException] Template file "Users\login.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'Users\\login.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('Users\\login')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /users/login
+Referer URL: http://localhost/attendenceProject/Users/registration
+
+
+2024-03-24 07:34:25 Warning: Warning (2): Declaration of App\Controller\HomePageController::beforeFilter(array $config) should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\attendenceProject\src\Controller\HomePageController.php, line 10]
+Request URL: /home-page
+Referer URL: http://localhost/attendenceProject/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+include - APP/Controller\HomePageController.php, line 7
+Composer\Autoload\{closure} - ROOT\vendor\composer\ClassLoader.php, line 576
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 427
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 151
+Cake\Core\App::className() - CORE\src\Core\App.php, line 63
+Cake\Http\ControllerFactory::getControllerClass() - CORE\src\Http\ControllerFactory.php, line 93
+Cake\Http\ControllerFactory::create() - CORE\src\Http\ControllerFactory.php, line 37
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 91
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 256
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 164
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 100
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:34:25 Error: [TypeError] Argument 1 passed to App\Controller\HomePageController::beforeFilter() must be of the type array, object given, called in C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Event\EventManager.php on line 351 (C:\xampp\htdocs\attendenceProject\src\Controller\HomePageController.php:10)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Event\EventManager.php(351): App\Controller\HomePageController->beforeFilter(Object(Cake\Event\Event))
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Event\EventManager.php(328): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(112): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(673): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(115): Cake\Controller\Controller->startupProcess()
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /home-page
+Referer URL: http://localhost/attendenceProject/users/login
+
+
+2024-03-24 07:35:07 Warning: Warning (2): Declaration of App\Controller\HomePageController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [C:\xampp\htdocs\attendenceProject\src\Controller\HomePageController.php, line 10]
+Request URL: /home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+include - APP/Controller\HomePageController.php, line 7
+Composer\Autoload\{closure} - ROOT\vendor\composer\ClassLoader.php, line 576
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 427
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 151
+Cake\Core\App::className() - CORE\src\Core\App.php, line 63
+Cake\Http\ControllerFactory::getControllerClass() - CORE\src\Http\ControllerFactory.php, line 93
+Cake\Http\ControllerFactory::create() - CORE\src\Http\ControllerFactory.php, line 37
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 91
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 256
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 164
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 100
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:35:57 Warning: Warning (2): Could not check compatibility between App\Controller\HomePageController::beforeFilter(App\Controller\Cake\Event\Event $event) and Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event), because class App\Controller\Cake\Event\Event is not available in [C:\xampp\htdocs\attendenceProject\src\Controller\HomePageController.php, line 10]
+Request URL: /home-page
+Referer URL: http://localhost/attendenceProject/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+include - APP/Controller\HomePageController.php, line 7
+Composer\Autoload\{closure} - ROOT\vendor\composer\ClassLoader.php, line 576
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 427
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 151
+Cake\Core\App::className() - CORE\src\Core\App.php, line 63
+Cake\Http\ControllerFactory::getControllerClass() - CORE\src\Http\ControllerFactory.php, line 93
+Cake\Http\ControllerFactory::create() - CORE\src\Http\ControllerFactory.php, line 37
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 91
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 256
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 164
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 100
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+DebugKit\Middleware\DebugKitMiddleware::__invoke() - ROOT\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php, line 53
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 97
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 07:35:57 Error: [TypeError] Argument 1 passed to App\Controller\HomePageController::beforeFilter() must be an instance of App\Controller\Cake\Event\Event, instance of Cake\Event\Event given, called in C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Event\EventManager.php on line 351 (C:\xampp\htdocs\attendenceProject\src\Controller\HomePageController.php:10)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Event\EventManager.php(351): App\Controller\HomePageController->beforeFilter(Object(Cake\Event\Event))
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Event\EventManager.php(328): Cake\Event\EventManager->_callListener(Array, Object(Cake\Event\Event))
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Event\EventDispatcherTrait.php(112): Cake\Event\EventManager->dispatch(Object(Cake\Event\Event))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(673): Cake\Controller\Controller->dispatchEvent('Controller.init...')
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(115): Cake\Controller\Controller->startupProcess()
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /home-page
+Referer URL: http://localhost/attendenceProject/users/login
+
+
+2024-03-24 09:12:51 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Logout could not be found. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Logout',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /logout
+
+
+2024-03-24 09:13:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Logout could not be found. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Logout',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /logout
+
+
+2024-03-24 09:29:31 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Home could not be found. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Home',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /home-/
+
+
+2024-03-24 09:58:18 Error: [Error] Call to a member function find() on bool (C:\xampp\htdocs\attendenceProject\src\Controller\HomePageController.php:30)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\HomePageController->getLeaders()
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+Request URL: /HomePage/getLeaders
+Referer URL: http://localhost/attendenceProject/home-page
+
+
+2024-03-24 09:58:19 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php line=855 in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 53]
+Request URL: /HomePage/getLeaders
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 53
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 09:58:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 154]
+Request URL: /HomePage/getLeaders
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 154
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 59
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 09:58:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/getLeaders
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 09:58:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/getLeaders
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 09:59:31 Error: [Error] Call to a member function find() on bool (C:\xampp\htdocs\attendenceProject\src\Controller\HomePageController.php:30)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\HomePageController->getLeaders()
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+Request URL: /HomePage/getLeaders
+Referer URL: http://localhost/attendenceProject/home-page
+
+
+2024-03-24 09:59:31 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php line=855 in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 53]
+Request URL: /HomePage/getLeaders
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 53
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 09:59:31 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 154]
+Request URL: /HomePage/getLeaders
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 154
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 59
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 09:59:31 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/getLeaders
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 09:59:31 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/getLeaders
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-24 10:48:44 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+
+
+2024-03-24 10:52:45 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+
+
+2024-03-24 11:18:48 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/HomePage/
+
+
+2024-03-24 11:21:56 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/HomePage/
+
+
+2024-03-24 11:36:16 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+
+
+2024-03-24 11:38:19 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/HomePage/
+
+
+2024-03-24 11:39:20 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/HomePage/
+
+
+2024-03-24 12:06:06 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+
+
+2024-03-24 12:24:00 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/HomePage/
+
+
+2024-03-24 12:32:18 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+
+
+2024-03-24 12:41:40 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+
+
+2024-03-24 12:43:56 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+
+
+2024-03-24 12:59:30 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+
+
+2024-03-24 12:59:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Login could not be found. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Login',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /login
+
+
+2024-03-25 02:44:01 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::index() could not be found, or is not accessible. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /users/
+
+
+2024-03-25 02:44:36 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::index() could not be found, or is not accessible. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php:596)
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => false,
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /users/
+
+
+2024-03-25 03:50:41 Error: [Error] Call to undefined function App\Controller\JavaScript() (C:\xampp\htdocs\attendenceProject\src\Controller\UsersController.php:40)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\UsersController->login()
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#16 {main}
+Request URL: /users/login
+Referer URL: http://localhost/attendenceProject/users/login
+
+
+2024-03-25 03:56:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Register could not be found. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ControllerFactory.php:105)
+Exception Attributes: array (
+  'class' => 'Register',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(39): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#15 {main}
+Request URL: /register
+
+
+2024-03-25 05:01:11 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+
+
+2024-03-25 10:47:46 Error: [PDOException] SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Database\Driver.php:93)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Database\Driver.php(93): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(105): Cake\Database\Driver->_connect('mysql:host=loca...', Array)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(44): Cake\Database\Driver\Mysql->connect()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(62): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(51): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(41): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Database\Connection.php(399): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Table.php(565): Cake\Database\Connection->getSchemaCollection()
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Marshaller.php(68): Cake\ORM\Table->getSchema()
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Marshaller.php(586): Cake\ORM\Marshaller->_buildPropertyMap(Array, Array)
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Table.php(2883): Cake\ORM\Marshaller->merge(Object(App\Model\Entity\User), Array, Array)
+#11 C:\xampp\htdocs\attendenceProject\src\Controller\UsersController.php(19): Cake\ORM\Table->patchEntity(Object(App\Model\Entity\User), Array)
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\UsersController->registration()
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#17 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#19 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#20 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#21 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#23 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#24 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#25 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#26 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#27 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#28 {main}
+Request URL: /users/registration
+Referer URL: http://localhost/attendenceProject/users/registration
+
+
+2024-03-25 10:48:39 Error: [RuntimeException] Cannot insert row in "users" table, it has no primary key. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Table.php:2124)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Table.php(2052): Cake\ORM\Table->_insert(Object(App\Model\Entity\User), Array)
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Table.php(1965): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Table.php(1670): Cake\ORM\Table->Cake\ORM\{closure}()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Database\Connection.php(741): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Table.php(1671): Cake\Database\Connection->transactional(Object(Closure))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Table.php(1966): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#6 C:\xampp\htdocs\attendenceProject\src\Controller\UsersController.php(20): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\UsersController->registration()
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /users/registration
+Referer URL: http://localhost/attendenceProject/users/registration
+
+
+2024-03-25 10:49:49 Error: [RuntimeException] Cannot insert row in "users" table, it has no primary key. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Table.php:2124)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Table.php(2052): Cake\ORM\Table->_insert(Object(App\Model\Entity\User), Array)
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Table.php(1965): Cake\ORM\Table->_processSave(Object(App\Model\Entity\User), Object(ArrayObject))
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Table.php(1670): Cake\ORM\Table->Cake\ORM\{closure}()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Database\Connection.php(741): Cake\ORM\Table->Cake\ORM\{closure}(Object(Cake\Database\Connection))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Table.php(1671): Cake\Database\Connection->transactional(Object(Closure))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\ORM\Table.php(1966): Cake\ORM\Table->_executeTransaction(Object(Closure), true)
+#6 C:\xampp\htdocs\attendenceProject\src\Controller\UsersController.php(20): Cake\ORM\Table->save(Object(App\Model\Entity\User))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(606): App\Controller\UsersController->registration()
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /users/registration
+Referer URL: http://localhost/attendenceProject/users/registration
+
+
+2024-03-25 11:21:39 Error: [Cake\View\Exception\MissingTemplateException] Template file "Users\logout.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'Users\\logout.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('Users\\logout')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /Users/logout
+Referer URL: http://localhost/attendenceProject/home-page
+
+
+2024-03-25 11:22:19 Error: [Cake\View\Exception\MissingTemplateException] Template file "Users\logout.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'Users\\logout.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('Users\\logout')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /Users/logout
+Referer URL: http://localhost/attendenceProject/home-page
+
+
+2024-03-25 11:46:08 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+
+
+2024-03-25 11:47:16 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+
+
+2024-03-25 11:50:00 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php line=855 in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 53]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 53
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:50:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 154]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 154
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 59
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:50:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:50:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:50:00 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:51:12 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php line=855 in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 53]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 53
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:51:12 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 154]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 154
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 59
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:51:12 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:51:12 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:51:12 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:51:27 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php line=855 in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 53]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 53
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:51:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 154]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 154
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 59
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:51:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:51:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:51:27 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:53:21 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php line=855 in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 53]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 53
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:53:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 154]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 154
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 59
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:53:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:53:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:53:21 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Debugger.php:855) in [C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 183]
+Request URL: /HomePage/addingTime
+Referer URL: http://localhost/attendenceProject/home-page
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 168
+Cake\Core\BasePlugin::{closure}() - ROOT\vendor\cakephp\debug_kit\config\bootstrap.php, line 43
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 183
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 60
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 140
+[main] - ROOT\webroot\index.php, line 40
+
+
+
+2024-03-25 11:55:44 Error: [Cake\View\Exception\MissingTemplateException] Template file "HomePage\adding_time.ctp" is missing. (C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php:1605)
+Exception Attributes: array (
+  'file' => 'HomePage\\adding_time.ctp',
+)
+#0 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\View\View.php(888): Cake\View\View->_getViewFileName('HomePage\\adding...')
+#1 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Controller\Controller.php(791): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(126): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomePageController))
+#4 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\BaseApplication.php(256): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(164): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(100): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\attendenceProject\vendor\cakephp\debug_kit\src\Middleware\DebugKitMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(65): DebugKit\Middleware\DebugKitMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\attendenceProject\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\xampp\htdocs\attendenceProject\webroot\index.php(40): Cake\Http\Server->run()
+#17 {main}
+Request URL: /HomePage/addingTime
+
+
